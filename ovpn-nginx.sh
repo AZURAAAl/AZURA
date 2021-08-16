@@ -8,7 +8,7 @@ echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━�
 echo ""
 systemctl stop apache2
 fuser -k 80
-wget -q https://raw.githubusercontent.com/AZURAAAl/AZURA/main/ovpn-nginx.sh
+wget -q https://raw.githubusercontent.com/AZURAAAl/AZURA/main/upload-ovpn.sh
 echo "wait..."
 sudo apt install nginx -y
 cp /tmp/upload-ovpn.sh /usr/bin/
